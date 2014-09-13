@@ -32,20 +32,46 @@
 
 		<div class="container-fluid">
 			<div class="row">
-			    <form role="form">
+			    <form role="form" name="reclamacaoForm" ng-submit="adicionarReclamacao()">
 				  <div class="form-group">
 				    <label for="empresa">Empresa</label>
-				    <select class="form-control" id="empresa" ng-model="empresa" ng-options="empresa.nome for empresa in empresas">
+				    <select class="form-control" id="empresa" ng-model="reclamacao.empresa" ng-options="empresa.nome for empresa in empresas">
 				    </select>
 				  </div>
-				  <div class="well well-sm" ng-show="empresa">
+				  <div class="well well-sm" ng-show="reclamacao.empresa != null">
 				  	<dl class="dl-horizontal">
-	  					<dt>Nome</dt><dd>{{empresa.nome}}</dd>
-	  					<dt>Descrição</dt><dd>{{empresa.descricao}}</dd>
-	  					<dt>Telefone</dt><dd>{{empresa.telefone}}</dd>
+	  					<dt>Nome</dt><dd>{{reclamacao.empresa.nome}}</dd>
+	  					<dt>Descrição</dt><dd>{{reclamacao.empresa.descricao}}</dd>
+	  					<dt>Telefone</dt><dd>{{reclamacao.empresa.telefone}}</dd>
 					</dl>
 				  </div>
+
+					<div class="form-group">
+				    	<label for="reclamacao">Reclamação</label>
+				    	<input type="text" ng-model="reclamacao.titulo" class="form-control" id="reclamacao" placeholder="Em poucas palavras, explique a situação.">
+				  	</div>
+
+					<button type="submit" class="btn btn-primary">Criar</button>
+
+				  	
+
 				</form>
+			</div>
+			<div class="row" ng-show="reclamacoes.length <= 0">
+				<p><em>Nenhuma reclamação cadastrada.</em></p>
+			</div>
+			<div class="row" ng-show="reclamacoes.length > 0">
+				<h3>Reclamações</h3>
+				<table class="table table-bordered">
+					<tr>
+						<th>Reclamação</th>
+						<th>Empresa</th>
+					</tr>
+					<tr ng-repeat="reclamacao in reclamacoes">
+						<td>{{reclamacao.titulo}}</td>
+						<td>{{reclamacao.empresa.nome}} ({{reclamacao.empresa.descricao}})</td>
+					</tr>
+				</table>
 			</div>
 		</div><!--/.container-fluid -->
 
