@@ -8,15 +8,7 @@
 
 	<script src="js/controllers.js"></script>
 
-	<style type="text/css">
-		body {
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
-		.navbar {
-			margin-bottom: 20px;
-		}
-	</style>
+<link href="css/global.css" rel="stylesheet">
 </head>
 <body ng-controller="EmpresaCtrl">
     <div class="container">
@@ -32,10 +24,10 @@
 
 		<div class="container-fluid">
 			<div class="row">
-			    <form role="form" name="reclamacaoForm" ng-submit="adicionarReclamacao()">
+			    <form role="form" name="reclamacaoForm" ng-submit="reclamacaoForm.$valid && adicionarReclamacao()" novalidate>
 				  <div class="form-group">
 				    <label for="empresa">Empresa</label>
-				    <select class="form-control" id="empresa" ng-model="reclamacao.empresa" ng-options="empresa.nome for empresa in empresas">
+				    <select class="form-control" id="empresa" ng-model="reclamacao.empresa" ng-options="empresa.nome for empresa in empresas" required>
 				    </select>
 				  </div>
 				  <div class="well well-sm" ng-show="reclamacao.empresa != null">
@@ -48,21 +40,24 @@
 
 					<div class="form-group">
 				    	<label for="reclamacao">Reclamação</label>
-				    	<input type="text" ng-model="reclamacao.titulo" class="form-control" id="reclamacao" placeholder="Em poucas palavras, explique a situação.">
+				    	<input type="text" ng-model="reclamacao.titulo" class="form-control" id="reclamacao" placeholder="Em poucas palavras, explique a situação." required>
 				  	</div>
 
-					<button type="submit" class="btn btn-primary">Criar</button>
+					<button type="submit" ng-disabled="reclamacaoForm.$invalid" class="btn btn-primary">Criar</button>
 
+					<span ng-show="reclamacaoForm.$invalid" class="help-block">Um ou mais campos obrigatório deste formulário não estão prenchidos.</span>
+				
 				  	
 
 				</form>
 			</div>
-			<div class="row" ng-show="reclamacoes.length <= 0">
-				<p><em>Nenhuma reclamação cadastrada.</em></p>
-			</div>
-			<div class="row" ng-show="reclamacoes.length > 0">
+
+
+			<div class="row"> 
 				<h3>Reclamações</h3>
-				<table class="table table-bordered">
+				<p class="well" ng-show="reclamacoes.length <= 0"><em>Nenhuma reclamação cadastrada.</em></p>
+
+				<table class="table table-bordered" ng-show="reclamacoes.length > 0">
 					<tr>
 						<th>Reclamação</th>
 						<th>Empresa</th>

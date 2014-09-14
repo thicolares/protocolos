@@ -10,8 +10,9 @@ protocolosApp.controller('EmpresaCtrl', function($scope, $http) {
 	});
 
 	$scope.adicionarReclamacao = function() {
-		$scope.reclamacoes.push($scope.reclamacao);
+		$scope.reclamacoes.push(angular.copy($scope.reclamacao));
 		$scope.reclamacao = {};
+		$scope.reclamacaoForm.$setPristine();
 	}
 
 	$scope.reclamacoes = [];
