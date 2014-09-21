@@ -2,9 +2,9 @@
 
 /* Controllers */
 
-var protocolosApp = angular.module('protocolosApp', []);
+var protocoloControllers = angular.module('protocoloControllers', []);
 
-protocolosApp.controller('EmpresaCtrl', function($scope, $http) {
+protocoloControllers.controller('GerenciarReclamacoesCtrl', function($scope, $http) {
 	$http.get('empresas.json').success( function(data) {
 		$scope.empresas = data;
 	});
