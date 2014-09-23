@@ -4,7 +4,8 @@
 
 var protocolosApp = angular.module('protocolosApp', [
   'ngRoute',
-  'protocoloControllers'
+  'protocoloControllers',
+  'protocoloFilters'
 ]);
 
 protocolosApp.config(['$routeProvider',

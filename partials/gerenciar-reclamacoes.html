@@ -29,13 +29,17 @@
 
 		<table class="table table-bordered" ng-show="reclamacoes.length > 0">
 			<tr>
+				<th style="width: 170px"><a href="" ng-click="campo = 'data'; reverse=!reverse">Iniciada em</a></th>
 				<th>Reclamação</th>
 				<th>Empresa</th>
+				<th>Resolvido?</th>
 				<th>Ações</th>
 			</tr>
-			<tr ng-repeat="reclamacao in reclamacoes">
+			<tr ng-repeat="reclamacao in reclamacoes | orderBy:campo:reverse">
+				<td>{{reclamacao.data | date: "dd/MM/yyyy HH:mm:ss"}}</td>
 				<td>{{reclamacao.titulo}}</td>
 				<td>{{reclamacao.empresa.nome}} ({{reclamacao.empresa.descricao}})</td>
+				<td>{{reclamacao.resolvido | simNao}}</td>
 				<td><a class="btn btn-default" href="#/reclamacao/{{reclamacoes.indexOf(reclamacao)}}">Editar</a></td>
 
 			</tr>

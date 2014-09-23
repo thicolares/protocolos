@@ -2,6 +2,8 @@
 	{
 		"id": 1,
 		"titulo": "Fatura com cobrança indevida!",
+		"data": "1407692232000",
+		"resolvido": false,
 		"empresa": {
 			"nome": "Vivo",
 			"descricao": "Celular, Fixo, Internet, TV",
@@ -11,6 +13,8 @@
 	{
 		"id": 2,
 		"titulo": "Promoção não foi ativada",
+		"data": "1407867454000",
+		"resolvido": false,
 		"empresa": {
 			"nome": "NET Serviços",
 			"descricao": "TV, Banda Larga e Telefone",
@@ -20,6 +24,8 @@
 	{
 		"id": 3,
 		"titulo": "Pacote de dados cancelado",
+		"data": "1411252195000",
+		"resolvido": true,
 		"empresa": {
 			"nome": "Vivo",
 			"descricao": "Celular, Fixo, Internet, TV",
