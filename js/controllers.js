@@ -14,6 +14,7 @@ protocoloControllers.controller('GerenciarReclamacoesCtrl', function($scope, $ht
 	});
 
 	$scope.adicionarReclamacao = function() {
+		$scope.reclamacao.data = new Date()
 		$scope.reclamacoes.push(angular.copy($scope.reclamacao));
 		$scope.reclamacao = {};
 		$scope.reclamacaoForm.$setPristine();

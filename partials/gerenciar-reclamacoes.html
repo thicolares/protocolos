@@ -6,8 +6,9 @@
 		    <select class="form-control" id="empresa" ng-model="reclamacao.empresa" ng-options="empresa.nome for empresa in empresas" required>
 		    </select>
 		  </div>
-		  <div class="well well-sm" ng-show="reclamacao.empresa != null" ng-include="'includes/empresa.html'">
-
+		  
+		  <div class="well well-sm" ng-show="reclamacao.empresa != null">
+		  	<div pro-empresa></div>
 		  </div>
 
 			<div class="form-group">
