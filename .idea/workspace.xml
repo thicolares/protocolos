@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67391e50-3efd-4e04-acc4-5e3fd0d806ff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/public/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/1-basic.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/10-update.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/11-pairs.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/12-via.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/13-join.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/14-where.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/15-multiple.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/16-offset.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/17-transaction.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/18-union.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/19-array-offset.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/2-detail.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/20-extended.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/21-simple-union.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/22-insert-update.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/23-prefix.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/24-lock.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/25-backjoin.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/26-in.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/27-in-multi.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/28-literal.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/29-row-set.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/3-search-order.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/30-rowclass.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/31-datetime.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/4-findone.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/5-tostring.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/6-aggregation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/7-subquery.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/8-discovery.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/9-cache.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/NotORM/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Middleware/ContentTypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/Middleware/ContentTypesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Environment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/EnvironmentTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Middleware/Flash.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/Middleware/FlashTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/Foo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Http/Headers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/Http/HeadersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/NotORM/Literal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/LogTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/LogWriter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/LogWriterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Middleware/MethodOverride.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/Middleware/MethodOverrideTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Middleware.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/MiddlewareTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/NotORM/MultiResult.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/NotORM.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Exception/Pass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/Middleware/PrettyExceptionsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Http/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Exception/RequestSlash.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/Http/RequestTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Http/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/Http/ResponseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/NotORM/Result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/RouteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Router.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/RouterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/NotORM/Row.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Middleware/SessionCookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/Middleware/SessionCookieTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Slim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/SlimTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Exception/Stop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/NotORM/Structure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/Http/Util.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/Http/UtilTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/Slim/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/ViewTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/caching-etag.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/caching-expires.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/caching-last-modified.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/caching.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/connect.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/environment.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/errors-debug.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/errors-error-handler.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/errors-notfound-handler.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/errors-output.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/errors-reporting.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/errors.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/flash.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/hooks-custom.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/hooks-default.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/hooks-usage.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/hooks.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/instantiation.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/logging.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/middleware-add.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/middleware-architecture.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/middleware-implementation.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/middleware.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/modes.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/names-and-scopes.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/request-cookies.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/request-headers.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/request-helpers.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/request-method.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/request-parameters.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/request-paths.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/request-xhr.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/request.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/response-body.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/response-cookies.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/response-header.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/response-helpers.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/response-status.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/response.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-conditions.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-custom.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-delete.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-generic.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-get.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-helpers-halt.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-helpers-pass.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-helpers-redirect.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-helpers-stop.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-helpers-urlfor.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-helpers.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-indepth-slashes.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-indepth-with-rewrite.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-indepth-without-rewrite.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-indepth.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-middleware.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-names.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-options.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-parameters.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-post.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing-put.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/routing.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/run-tests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/sql/schema.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/sessions.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/settings.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/tests/software.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/system-requirements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/tests/templates/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/vrana/notorm/todo.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/views-custom.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/views-data.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/views-rendering.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/views-settings.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/views.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-api/vendor/slim/slim/docs/welcome.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
+    </list>
+    <ignored path="angularjs-toy-project.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="angularjs-toy-project" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="73" selection-start="637" selection-end="637" vertical-scroll-proportion="-0.0" vertical-offset="180" max-vertical-offset="792">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="0" selection-end="904" vertical-scroll-proportion="0.09120521" vertical-offset="88" max-vertical-offset="702">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comentario.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/comentario.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="70" selection-start="51" selection-end="70" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/directives.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="13" selection-start="821" selection-end="821" vertical-scroll-proportion="-11.066667" vertical-offset="280" max-vertical-offset="864">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest-api/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="167" column="9" selection-start="4856" selection-end="4856" vertical-scroll-proportion="-5.551724" vertical-offset="2523" max-vertical-offset="3366">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest-api/public/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="18" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="2" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/rest-api/public/.htaccess" />
+        <option value="$PROJECT_DIR$/rest-api/public/index.php" />
+        <option value="$PROJECT_DIR$/js/services.js" />
+        <option value="$PROJECT_DIR$/js/controllers.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="48" />
+    <option name="y" value="-4" />
+    <option name="width" value="1873" />
+    <option name="height" value="1085" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-toy-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-toy-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protocolos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-toy-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protocolos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-toy-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protocolos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-toy-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protocolos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67391e50-3efd-4e04-acc4-5e3fd0d806ff" name="Default" comment="" />
+      <created>1411593700858</created>
+      <updated>1411593700858</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="48" y="-4" width="1873" height="1085" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25260273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="atlassian-ide-plugin-workspace">
+    <option name="bambooConfiguration">
+      <BambooWorkspaceConfiguration>
+        <option name="view">
+          <BambooViewConfigurationBean />
+        </option>
+      </BambooWorkspaceConfiguration>
+    </option>
+    <option name="defaultCredentials">
+      <UserCfgBean />
+    </option>
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="73" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="42" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="66" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="73" selection-start="637" selection-end="637" vertical-scroll-proportion="-0.0" vertical-offset="180" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/vendor/vrana/notorm/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.44516128" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/comentario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="70" selection-start="51" selection-end="70" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="9" selection-start="4856" selection-end="4856" vertical-scroll-proportion="-5.551724" vertical-offset="2523" max-vertical-offset="3366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="13" selection-start="821" selection-end="821" vertical-scroll-proportion="-11.066667" vertical-offset="280" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="0" selection-end="904" vertical-scroll-proportion="0.09120521" vertical-offset="88" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
