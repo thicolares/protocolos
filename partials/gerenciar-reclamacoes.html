@@ -42,11 +42,11 @@
 				<td>{{reclamacao.empresa.nome}} ({{reclamacao.empresa.descricao}})</td>
 				<td>{{reclamacao.resolvido | simNao}}</td>
 				<td>
-					<a class="btn btn-default" href="#/reclamacao/{{reclamacoes.indexOf(reclamacao)}}">Editar</a>
-
 					<button class="btn btn-default" data-toggle="modal" data-target="#myModal" ng-click="inserirModal(reclamacao)">
-  						Comentários ({{reclamacao.comentarios.length}})
+  						<span class="glyphicon glyphicon-comment"></span> Comentários ({{reclamacao.comentarios.length}})
 					</button>
+					<a class="btn btn-default" href="#/reclamacao/{{reclamacoes.indexOf(reclamacao)}}"><span class="glyphicon glyphicon-edit"></span> Editar</a>
+					
 				</td>
 
 			</tr>
