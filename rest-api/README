@@ -1,0 +1,6 @@
+### Configurações iniciais
+
+* Modifique
+* Execute o sql: mysql -u root < sql/schema.sql
+
+Esse código fonte é baseado neste tutorial: http://sitepoint.com/writing-a-restful-web-service-with-slim

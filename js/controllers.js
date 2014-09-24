@@ -5,9 +5,7 @@
 var protocoloControllers = angular.module('protocoloControllers', []);
 
 protocoloControllers.controller('GerenciarReclamacoesCtrl', function($scope, Reclamacao, Empresa) {
-	Reclamacao.success( function(data) {
-		$scope.reclamacoes = data;
-	});
+	$scope.reclamacoes = Reclamacao.list();
 
 	Empresa.success( function(data) {
 		$scope.empresas = data;
@@ -27,9 +25,10 @@ protocoloControllers.controller('GerenciarReclamacoesCtrl', function($scope, Rec
 });
 
 protocoloControllers.controller('ReclamacaoCtrl', function($scope, $routeParams, Reclamacao) {
-	Reclamacao.success( function(data) {
-		$scope.reclamacoes = data;
+	$scope.reclamacoes = Reclamacao.list();
+
+
 		console.log($scope.reclamacoes);
 		$scope.reclamacao = $scope.reclamacoes[$routeParams.reclamacaoId];
-	});
+
 });
