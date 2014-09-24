@@ -8,7 +8,8 @@
 			"nome": "Vivo",
 			"descricao": "Celular, Fixo, Internet, TV",
 			"telefone": "7142055471"
-		}
+		},
+		"comentarios": []
 	},
 	{
 		"id": 2,
@@ -19,7 +20,8 @@
 			"nome": "NET Serviços",
 			"descricao": "TV, Banda Larga e Telefone",
 			"telefone": "7132809224"
-		}
+		},
+		"comentarios": []
 	},
 	{
 		"id": 3,
@@ -30,6 +32,7 @@
 			"nome": "Vivo",
 			"descricao": "Celular, Fixo, Internet, TV",
 			"telefone": "7142055471"
-		}
+		},
+		"comentarios": []
 	}
 ]

@@ -1,0 +1,14 @@
+<form role="form" name="formComentario" ng-submit="adicionarComentario()">
+  <div class="form-group">
+    <label for="comentario" pro-obrigatorio>Comentário</label>
+    <input type="text" class="form-control" id="comentario" ng-model="comentario.mensagem" required>
+    <span class="help-block">Registre algo que aconteceu, alguma informação nova sobre a reclamação.</span>
+  </div>
+  <button type="submit" ng-disabled="formComentario.$invalid" class="btn btn-primary">Enviar comentário</button>
+</form>
+
+<hr ng-show="reclamacao.comentarios.length > 0">
+<h4 ng-show="reclamacao.comentarios.length > 0">Comentários</h4>
+<div class="well well-sm" ng-repeat="comentario in reclamacao.comentarios">
+	({{$index + 1}}) {{comentario.mensagem}} -- <small><em>{{comentario.data | date: 'dd/MM/yyyy'}}</em></small>
+</div>

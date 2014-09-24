@@ -13,6 +13,10 @@ protocoloControllers.controller('GerenciarReclamacoesCtrl', function($scope, $ht
 		$scope.reclamacoes = data;
 	});
 
+	$scope.inserirModal = function(reclamacao) {
+		$scope.reclamacaoModal = reclamacao;
+	}
+	
 	$scope.adicionarReclamacao = function() {
 		$scope.reclamacao.data = new Date()
 		$scope.reclamacoes.push(angular.copy($scope.reclamacao));

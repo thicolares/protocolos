@@ -1,3 +1,6 @@
 <h2>Reclamação: {{reclamacao.titulo}}</h2>
-<div class="well well-sm" ng-show="reclamacao.empresa != null" ng-include="'includes/empresa.html'">
+<div class="well well-sm" ng-show="reclamacao.empresa != null">
+	<pro-empresa empresa="reclamacao.empresa"></pro-empresa>
+</div>
 
+<pro-comentario reclamacao="reclamacao"></pro-comentario>
